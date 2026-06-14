@@ -7,7 +7,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 object RetrofitClient {
     private const val BASE_URL =
-        "https://velib-metropole-opendata.smovengo.fr/opendata/Velib_Metropole/"
+        "https://velib-metropole-opendata.smovengo.cloud/opendata/Velib_Metropole/"
 
     private val loggingInterceptor = HttpLoggingInterceptor().apply {
         level = HttpLoggingInterceptor.Level.BASIC

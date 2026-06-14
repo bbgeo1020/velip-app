@@ -9,6 +9,18 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
+    <EditText
+        android:id="@+id/etSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_margin="12dp"
+        android:hint="🔍 Rechercher une station..."
+        android:background="@android:drawable/editbox_background"
+        android:padding="10dp"
+        android:inputType="text"
+        android:imeOptions="actionSearch"/>
+
     <ProgressBar
         android:id="@+id/progressBar"
         android:layout_width="wrap_content"
@@ -41,5 +53,4 @@
             android:backgroundTint="#388E3C"/>
 
     </LinearLayout>
-
 </RelativeLayout>

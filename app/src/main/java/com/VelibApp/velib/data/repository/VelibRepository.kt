@@ -14,7 +14,7 @@ class VelibRepository {
         return infoResponse.data.stations.mapNotNull { info ->
             val status = statusMap[info.station_id] ?: return@mapNotNull null
             Station(
-                id = info.station_id,
+                id = info.station_id.toString(),
                 name = info.name,
                 lat = info.lat,
                 lon = info.lon,

@@ -21,7 +21,7 @@
             android:value="AIzaSyBf0mJj5iaHPGQxfGaxMjlnfTqrcFjkV4k" />
 
         <activity
-            android:name=".MainActivity"
+            android:name="com.VelibApp.velib.ui.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
